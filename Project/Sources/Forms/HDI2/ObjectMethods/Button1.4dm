@@ -1,9 +1,9 @@
-C_OBJECT:C1216($wpRange)
+var $wpRange : Object
 //get the range from the user selection
 $wpRange:=WP Selection range:C1340([EXAMPLES:4]wpDoc:2)
 
 
-C_LONGINT:C283($mode; $extension)
+var $mode; $extension : Integer
 //define the mode according radio button 
 Case of 
 	: (mReplace=1)

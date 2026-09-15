@@ -1,0 +1,10 @@
+/* Cross-platform dark mode support: text/foreground colours adapt automatically
+   to the active light/dark colour scheme. */
+
+button, text, radio {
+	stroke: automatic;
+}
+
+.HDI {
+	stroke: automatic;
+}

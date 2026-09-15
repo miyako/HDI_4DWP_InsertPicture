@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+	<body>
+	  <trans-unit id="HDI2_TabPage1" resname="HDI2_TabPage1">
+		<source>Page 1</source>
+		<target>Page 1</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabPage2" resname="HDI2_TabPage2">
+		<source>Page 2</source>
+		<target>Page 2</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TextInlinePictures" resname="HDI2_TextInlinePictures">
+		<source>Inline pictures</source>
+		<target>Inline pictures</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TextBackgroundPictures" resname="HDI2_TextBackgroundPictures">
+		<source>Background pictures</source>
+		<target>Background pictures</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TextFromFile" resname="HDI2_TextFromFile">
+		<source>From a file</source>
+		<target>From a file</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TextFromDatabase" resname="HDI2_TextFromDatabase">
+		<source>From the database</source>
+		<target>From the database</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_ButtonInsertPictureFromFile" resname="HDI2_ButtonInsertPictureFromFile">
+		<source>Insert a picture</source>
+		<target>Insert a picture</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_ButtonInsertPictureFromField" resname="HDI2_ButtonInsertPictureFromField">
+		<source>Insert a picture</source>
+		<target>Insert a picture</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_ButtonNext" resname="HDI2_ButtonNext">
+		<source>&gt;</source>
+		<target>&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_ButtonPrevious" resname="HDI2_ButtonPrevious">
+		<source>&lt;</source>
+		<target>&lt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_RadioReplace" resname="HDI2_RadioReplace">
+		<source>Replace</source>
+		<target>Replace</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_RadioPrepend" resname="HDI2_RadioPrepend">
+		<source>Prepend</source>
+		<target>Prepend</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_RadioAppend" resname="HDI2_RadioAppend">
+		<source>Append</source>
+		<target>Append</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_RadioInclude" resname="HDI2_RadioInclude">
+		<source>Include in range</source>
+		<target>Include in range</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_RadioExclude" resname="HDI2_RadioExclude">
+		<source>Exclude from range</source>
+		<target>Exclude from range</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TextInsertionMode" resname="HDI2_TextInsertionMode">
+		<source>Insertion mode</source>
+		<target>Insertion mode</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TextRangeExtension" resname="HDI2_TextRangeExtension">
+		<source>Range extension</source>
+		<target>Range extension</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>
