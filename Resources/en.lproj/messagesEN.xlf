@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/ObjectMethods/Button.4dm" source-language="en" target-language="en">
+	<body>
+	  <trans-unit id="AlertPictureInsertFailed" resname="AlertPictureInsertFailed">
+		<source>Picture insertion failed.</source>
+		<target>Picture insertion failed.</target>
+	  </trans-unit>
+	  <trans-unit id="DialogSelectPicture" resname="DialogSelectPicture">
+		<source>Select a picture</source>
+		<target>Select a picture</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

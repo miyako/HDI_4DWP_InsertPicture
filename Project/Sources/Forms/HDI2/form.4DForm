@@ -32,8 +32,8 @@
 					"dataSource": "TabControl",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Page 1",
-						"Page 2"
+						":xliff:HDI2_TabPage1",
+						":xliff:HDI2_TabPage2"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -83,10 +83,10 @@
 					"top": 222,
 					"left": 542,
 					"width": 200,
-					"height": 17,
 					"sizingX": "move",
-					"text": "Insert a picture",
+					"text": ":xliff:HDI2_ButtonInsertPictureFromFile",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button.4dm",
 					"events": [
 						"onClick"
@@ -97,10 +97,10 @@
 					"top": 364,
 					"left": 542,
 					"width": 200,
-					"height": 17,
 					"sizingX": "move",
-					"text": "Insert a picture",
+					"text": ":xliff:HDI2_ButtonInsertPictureFromField",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
@@ -117,7 +117,7 @@
 					"fontFamily": "System Font",
 					"fontSize": 24,
 					"fontWeight": "bold",
-					"text": "Inline pictures"
+					"text": ":xliff:HDI2_TextInlinePictures"
 				},
 				"Text1": {
 					"type": "text",
@@ -130,7 +130,7 @@
 					"fontFamily": "System Font",
 					"fontSize": 24,
 					"fontWeight": "bold",
-					"text": "Background pictures"
+					"text": ":xliff:HDI2_TextBackgroundPictures"
 				},
 				"Text2": {
 					"type": "text",
@@ -140,7 +140,7 @@
 					"height": 23,
 					"sizingX": "move",
 					"fontWeight": "bold",
-					"text": "From a file"
+					"text": ":xliff:HDI2_TextFromFile"
 				},
 				"Text3": {
 					"type": "text",
@@ -150,7 +150,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"fontWeight": "bold",
-					"text": "From the database"
+					"text": ":xliff:HDI2_TextFromDatabase"
 				},
 				"Field": {
 					"type": "input",
@@ -173,10 +173,10 @@
 					"top": 342,
 					"left": 664,
 					"width": 38,
-					"height": 17,
 					"sizingX": "move",
-					"text": ">",
+					"text": ":xliff:HDI2_ButtonNext",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button5.4dm",
 					"events": [
 						"onClick"
@@ -187,10 +187,10 @@
 					"top": 342,
 					"left": 613,
 					"width": 38,
-					"height": 17,
 					"sizingX": "move",
-					"text": "<",
+					"text": ":xliff:HDI2_ButtonPrevious",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button6.4dm",
 					"events": [
 						"onClick"
@@ -256,7 +256,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "mReplace",
-					"text": "Replace",
+					"text": ":xliff:HDI2_RadioReplace",
 					"focusable": false,
 					"radioGroup": "Group4",
 					"events": [
@@ -271,7 +271,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "mPrepend",
-					"text": "Prepend",
+					"text": ":xliff:HDI2_RadioPrepend",
 					"focusable": false,
 					"radioGroup": "Group4",
 					"events": [
@@ -286,7 +286,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "mAppend",
-					"text": "Append",
+					"text": ":xliff:HDI2_RadioAppend",
 					"focusable": false,
 					"radioGroup": "Group4",
 					"events": [
@@ -301,7 +301,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "mInclude",
-					"text": "Include in range",
+					"text": ":xliff:HDI2_RadioInclude",
 					"focusable": false,
 					"radioGroup": "Group3",
 					"events": [
@@ -316,7 +316,7 @@
 					"height": 27,
 					"sizingX": "move",
 					"dataSource": "mExclude",
-					"text": "Exclude from range",
+					"text": ":xliff:HDI2_RadioExclude",
 					"focusable": false,
 					"radioGroup": "Group3",
 					"events": [
@@ -331,7 +331,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"fontWeight": "bold",
-					"text": "Insertion mode"
+					"text": ":xliff:HDI2_TextInsertionMode"
 				},
 				"Text6": {
 					"type": "text",
@@ -341,7 +341,7 @@
 					"height": 17,
 					"sizingX": "move",
 					"fontWeight": "bold",
-					"text": "Range extension"
+					"text": ":xliff:HDI2_TextRangeExtension"
 				}
 			}
 		}

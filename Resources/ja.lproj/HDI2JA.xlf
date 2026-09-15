@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="ja">
+	<body>
+	  <trans-unit id="HDI2_TabPage1" resname="HDI2_TabPage1">
+		<source>Page 1</source>
+		<target>ページ1</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabPage2" resname="HDI2_TabPage2">
+		<source>Page 2</source>
+		<target>ページ2</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TextInlinePictures" resname="HDI2_TextInlinePictures">
+		<source>Inline pictures</source>
+		<target>インライン画像</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TextBackgroundPictures" resname="HDI2_TextBackgroundPictures">
+		<source>Background pictures</source>
+		<target>背景画像</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TextFromFile" resname="HDI2_TextFromFile">
+		<source>From a file</source>
+		<target>ファイルから</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TextFromDatabase" resname="HDI2_TextFromDatabase">
+		<source>From the database</source>
+		<target>データベースから</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_ButtonInsertPictureFromFile" resname="HDI2_ButtonInsertPictureFromFile">
+		<source>Insert a picture</source>
+		<target>画像を挿入</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_ButtonInsertPictureFromField" resname="HDI2_ButtonInsertPictureFromField">
+		<source>Insert a picture</source>
+		<target>画像を挿入</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_ButtonNext" resname="HDI2_ButtonNext">
+		<source>&gt;</source>
+		<target>&gt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_ButtonPrevious" resname="HDI2_ButtonPrevious">
+		<source>&lt;</source>
+		<target>&lt;</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_RadioReplace" resname="HDI2_RadioReplace">
+		<source>Replace</source>
+		<target>置換</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_RadioPrepend" resname="HDI2_RadioPrepend">
+		<source>Prepend</source>
+		<target>前に追加</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_RadioAppend" resname="HDI2_RadioAppend">
+		<source>Append</source>
+		<target>後に追加</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_RadioInclude" resname="HDI2_RadioInclude">
+		<source>Include in range</source>
+		<target>範囲に含める</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_RadioExclude" resname="HDI2_RadioExclude">
+		<source>Exclude from range</source>
+		<target>範囲から除外</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TextInsertionMode" resname="HDI2_TextInsertionMode">
+		<source>Insertion mode</source>
+		<target>挿入モード</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TextRangeExtension" resname="HDI2_TextRangeExtension">
+		<source>Range extension</source>
+		<target>範囲の拡張</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

@@ -1,13 +1,13 @@
 
-C_OBJECT:C1216($wpRange)
+var $wpRange : Object
 //get the range from the user selection
 $wpRange:=WP Selection range:C1340([EXAMPLES:4]wpDoc:2)
 
-C_BOOLEAN:C305($fail)
+var $fail : Boolean
 $fail:=False:C215
 
 
-C_LONGINT:C283($mode; $extension)
+var $mode; $extension : Integer
 //define the mode according radio button 
 Case of 
 	: (mReplace=1)
@@ -35,7 +35,7 @@ End case
 
 //ask the user which picture on the disk he wants to insert
 $pathSelect:=Get 4D folder:C485(Current resources folder:K5:16)
-$imgRef:=Select document:C905($pathSelect; ""; "Select a picture"; 0)
+$imgRef:=Select document:C905($pathSelect; ""; Localized string("DialogSelectPicture"); 0)
 //if he doesn't cancel
 If (ok=1)
 	//if the file is a picture file supported
@@ -57,5 +57,5 @@ Else
 End if 
 //if the insertion failed alert the user
 If ($fail)
-	ALERT:C41("Picture insertion failed.")
+	ALERT:C41(Localized string("AlertPictureInsertFailed"))
 End if 
