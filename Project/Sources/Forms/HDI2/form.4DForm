@@ -348,15 +348,20 @@
 	],
 	"editor": {
 		"groups": {
+			"Group3": [
+				"Radio Button2",
+				"Radio Button3"
+			],
 			"Group4": [
 				"Radio Button",
 				"Radio Button5",
 				"Radio Button1"
-			],
-			"Group3": [
-				"Radio Button2",
-				"Radio Button3"
 			]
 		}
+	},
+	"colorScheme": "light",
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }
