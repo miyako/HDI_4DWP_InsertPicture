@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_4DWP_Insert_a_picture_In_a_WPDocument" uuid="89D3E6F80FA9EA408A0E251A8569EC50" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="PICTURES" uuid="1F56E535A37244548B24D36168D5C30F" id="1">
+		<field name="ID" uuid="27B2C8CB82384675B558FA18752A584E" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="picture" uuid="919ADD98170E4F0BB299C65F51F0E257" type="12" never_null="true" id="2"/>
+		<primary_key field_name="ID" field_uuid="27B2C8CB82384675B558FA18752A584E"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<table name="SAMPLES" uuid="373049FBC27B4679BB600FC556A05850" id="3">
+		<field name="ID" uuid="A6E58BB01FF1407482262079B5A1922D" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Title" uuid="35C07DCBFEBB4747A3C229B95F85D5EE" type="10" never_null="true" id="2"/>
+		<field name="Text" uuid="4C4CE189E738499B84F53F34B61CF199" type="10" never_null="true" id="3"/>
+		<field name="SampleSort" uuid="DF812DB0BB6B4CCB83F420E40DA14116" type="4" never_null="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="A6E58BB01FF1407482262079B5A1922D"/>
+		<table_extra input_form="Form1" output_form="Output"/>
+	</table>
+	<table name="EXAMPLES" uuid="5442532164F54CBE85EDB90FDB1DAA7C" id="4">
+		<field name="ID" uuid="BC951BBC5AAA4B9B8E1F649163B4F323" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="wpDoc" uuid="9AAB00AD655B42E08D67089B5DFAFDE8" type="21" never_null="true" id="2"/>
+		<primary_key field_name="ID" field_uuid="BC951BBC5AAA4B9B8E1F649163B4F323"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="7D548BE6122F447AB5F695804FE64A70" type="7">
+		<field_ref uuid="BC951BBC5AAA4B9B8E1F649163B4F323" name="ID">
+			<table_ref uuid="5442532164F54CBE85EDB90FDB1DAA7C" name="EXAMPLES"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="9F0A7D5AE4AC4E49B1DB241459A71A43" type="7">
+		<field_ref uuid="A6E58BB01FF1407482262079B5A1922D" name="ID">
+			<table_ref uuid="373049FBC27B4679BB600FC556A05850" name="SAMPLES"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="AC9B110331D64D4DB648117154FF5BCC" type="7">
+		<field_ref uuid="27B2C8CB82384675B558FA18752A584E" name="ID">
+			<table_ref uuid="1F56E535A37244548B24D36168D5C30F" name="PICTURES"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":HowDoI.4DD" package_name="HDI_4DWP_Insert_a_picture_In_a_WPDocument" structure_file_name="HowDoI">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

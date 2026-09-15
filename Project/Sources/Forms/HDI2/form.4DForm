@@ -1,0 +1,362 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 720,
+	"windowMinHeight": 800,
+	"width": 800,
+	"height": 800,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 10,
+					"left": 10,
+					"width": 780,
+					"height": 780,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "TabControl",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Page 1",
+						"Page 2"
+					],
+					"action": "gotoPage",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable": {
+					"type": "input",
+					"top": 70,
+					"left": 40,
+					"width": 720,
+					"height": 590,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Var1",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 673,
+					"left": 343,
+					"width": 97,
+					"height": 87,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Button": {
+					"type": "button",
+					"top": 222,
+					"left": 542,
+					"width": 200,
+					"height": 17,
+					"sizingX": "move",
+					"text": "Insert a picture",
+					"focusable": false,
+					"method": "ObjectMethods/Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 364,
+					"left": 542,
+					"width": 200,
+					"height": 17,
+					"sizingX": "move",
+					"text": "Insert a picture",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 33,
+					"left": 522,
+					"width": 250,
+					"height": 40,
+					"sizingX": "move",
+					"textAlign": "center",
+					"fontFamily": "System Font",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"text": "Inline pictures"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 385,
+					"left": 522,
+					"width": 250,
+					"height": 40,
+					"sizingX": "move",
+					"textAlign": "center",
+					"fontFamily": "System Font",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"text": "Background pictures"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 203,
+					"left": 575,
+					"width": 200,
+					"height": 23,
+					"sizingX": "move",
+					"fontWeight": "bold",
+					"text": "From a file"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 247,
+					"left": 575,
+					"width": 200,
+					"height": 17,
+					"sizingX": "move",
+					"fontWeight": "bold",
+					"text": "From the database"
+				},
+				"Field": {
+					"type": "input",
+					"top": 270,
+					"left": 595,
+					"width": 125,
+					"height": 69,
+					"sizingX": "move",
+					"dataSource": "[PICTURES:1]picture:2",
+					"dataSourceTypeHint": "picture",
+					"borderStyle": "none",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 342,
+					"left": 664,
+					"width": 38,
+					"height": 17,
+					"sizingX": "move",
+					"text": ">",
+					"focusable": false,
+					"method": "ObjectMethods/Button5.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 342,
+					"left": 613,
+					"width": 38,
+					"height": 17,
+					"sizingX": "move",
+					"text": "<",
+					"focusable": false,
+					"method": "ObjectMethods/Button6.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture4": {
+					"type": "picture",
+					"top": 38,
+					"left": 512,
+					"width": 30,
+					"height": 30,
+					"sizingX": "move",
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture4.gif"
+				},
+				"WPwidget": {
+					"type": "subform",
+					"top": 416,
+					"left": 520,
+					"width": 260,
+					"height": 364,
+					"sizingX": "move",
+					"sizingY": "grow",
+					"detailForm": "WP_Palette_Backgrounds",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				},
+				"WParea": {
+					"type": "write",
+					"top": 45,
+					"left": 20,
+					"width": 480,
+					"height": 735,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "[EXAMPLES:4]wpDoc:2",
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"dpi": 0,
+					"zoom": 75,
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"method": "ObjectMethods/WParea.4dm",
+					"events": [
+						"onLoad",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				},
+				"Radio Button": {
+					"type": "radio",
+					"top": 90,
+					"left": 538,
+					"width": 90,
+					"height": 27,
+					"sizingX": "move",
+					"dataSource": "mReplace",
+					"text": "Replace",
+					"focusable": false,
+					"radioGroup": "Group4",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button5": {
+					"type": "radio",
+					"top": 90,
+					"left": 705,
+					"width": 90,
+					"height": 27,
+					"sizingX": "move",
+					"dataSource": "mPrepend",
+					"text": "Prepend",
+					"focusable": false,
+					"radioGroup": "Group4",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button1": {
+					"type": "radio",
+					"top": 90,
+					"left": 622,
+					"width": 90,
+					"height": 27,
+					"sizingX": "move",
+					"dataSource": "mAppend",
+					"text": "Append",
+					"focusable": false,
+					"radioGroup": "Group4",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button2": {
+					"type": "radio",
+					"top": 143,
+					"left": 538,
+					"width": 130,
+					"height": 27,
+					"sizingX": "move",
+					"dataSource": "mInclude",
+					"text": "Include in range",
+					"focusable": false,
+					"radioGroup": "Group3",
+					"events": [
+						"onClick"
+					]
+				},
+				"Radio Button3": {
+					"type": "radio",
+					"top": 163,
+					"left": 538,
+					"width": 150,
+					"height": 27,
+					"sizingX": "move",
+					"dataSource": "mExclude",
+					"text": "Exclude from range",
+					"focusable": false,
+					"radioGroup": "Group3",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text5": {
+					"type": "text",
+					"top": 74,
+					"left": 575,
+					"width": 200,
+					"height": 17,
+					"sizingX": "move",
+					"fontWeight": "bold",
+					"text": "Insertion mode"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 130,
+					"left": 575,
+					"width": 200,
+					"height": 17,
+					"sizingX": "move",
+					"fontWeight": "bold",
+					"text": "Range extension"
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group4": [
+				"Radio Button",
+				"Radio Button5",
+				"Radio Button1"
+			],
+			"Group3": [
+				"Radio Button2",
+				"Radio Button3"
+			]
+		}
+	}
+}
